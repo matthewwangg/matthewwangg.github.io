@@ -100,13 +100,21 @@ nav a {
 }
 
 .header-text {
-    font-size: 100px;
+    font-size: 80px; 
 }
 
 .container1 {
-    margin-top: 49px;
+    margin-top: 0;
     background: url('https://images.unsplash.com/photo-1682685797828-d3b2561deef4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    height: 160vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: center bottom;
+    padding: 20px;
 }
+
 
 .container2 {
     background-color: #000;
@@ -168,7 +176,7 @@ nav a {
 
 .picture-container3 {
     background-color: inherit;
-    padding: 100px 150px 100px 0px;
+    padding: 100px 0px 100px 150px;
     max-width: 55%;
     margin: 0 auto;
     color: #fff;
@@ -176,16 +184,15 @@ nav a {
 
 .text-container3 {
     background-color: inherit;
-    padding: 50px 0px 50px 100px;
+    padding: 50px 100px 50px 0px;
     text-align: center;
     max-width: 70%;
     margin: 0 auto;
     color: #fff;
-    margin-right: 100px;
+    margin-left: 100px; 
 }
 
 .profile-image2 {
-    margin-left: 160px;
     max-width: 55%;
 }
 
@@ -196,7 +203,4 @@ nav a {
 .about-description2 {
     margin-top: 70px;
     padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 50px;
-}
+   
