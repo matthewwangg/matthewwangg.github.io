@@ -59,11 +59,11 @@ nav a {
     margin-right: 50px;
 }
 
-.social-icons a {
-    color: #800080;
-    margin-left: 40px;
-    font-size: 30px;
-}
+    .social-icons a {
+        color: #800080;
+        margin-left: 40px;
+        font-size: 30px;
+    }
 
 .nav-links {
     margin-left: auto;
@@ -85,9 +85,9 @@ nav a {
         margin-top: 10px;
     }
 
-    .social-icons a {
-        margin-left: 10px;
-    }
+        .social-icons a {
+            margin-left: 10px;
+        }
 }
 
 .header-container1 {
@@ -100,7 +100,7 @@ nav a {
 }
 
 .header-text {
-    font-size: 80px; 
+    font-size: 80px;
 }
 
 .container1 {
@@ -124,9 +124,9 @@ nav a {
     padding: 20px;
 }
 
-.container2 div {
-    flex: 1;
-}
+    .container2 div {
+        flex: 1;
+    }
 
 .picture-container2 {
     background-color: inherit;
@@ -170,9 +170,9 @@ nav a {
     padding: 20px;
 }
 
-.container3 div {
-    flex: 1;
-}
+    .container3 div {
+        flex: 1;
+    }
 
 .picture-container3 {
     background-color: inherit;
@@ -189,7 +189,7 @@ nav a {
     max-width: 70%;
     margin: 0 auto;
     color: #fff;
-    margin-left: 100px; 
+    margin-left: 100px;
 }
 
 .profile-image2 {
@@ -203,4 +203,5 @@ nav a {
 .about-description2 {
     margin-top: 70px;
     padding: 20px;
-   
+    font-size: 20px;
+}
